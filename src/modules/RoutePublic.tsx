@@ -1,13 +1,14 @@
 import React from 'react'
 import PropTypes from 'prop-types'
-import { Route, Redirect } from 'react-router-dom'
+import { Redirect, Route } from 'react-router-dom'
 
-const RoutePublic = ({ component: Component, isAuthenticated, ...rest }: { component: React.FC<any>, isAuthenticated: boolean, rest: any }) => (
+const RoutePublic = ({ component: Component, isAuthenticated, path, exact = false }: { component: React.FC<any>, isAuthenticated: boolean, path: string, exact?: boolean }) => (
     <Route
-        {...rest}
+        path={path}
+        exact={exact}
         render={props =>
             isAuthenticated ? (
-                <Redirect to="/private"/>
+                <Redirect to="/home"/>
             ) : (
                 <Component {...props} />
             )

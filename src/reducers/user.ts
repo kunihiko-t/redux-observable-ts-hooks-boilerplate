@@ -10,25 +10,25 @@ export const userState = {
 export default {
     user: reducerWithInitialState(userState)
         .case(actions.login.started, (state, payload) => {
-            return immutable(state, {
-                status: { $set: 'running' },
-            })
-        })
-        .case(actions.login.done, (state, payload) => {
-            return immutable(state, {
-                status: { $set: 'idle' },
-                isAuthenticated: { $set: true },
-            })
-        })
-        .case(actions.logout.started, (state, payload) => {
+            console.log('started')
             return immutable(state, {
                 status: { $set: 'running' },
             })
         })
         .case(actions.logout.done, (state, payload) => {
+            console.log('done')
+            console.log(payload)
             return immutable(state, {
                 status: { $set: 'idle' },
+                isAuthenticated: { $set: true },
+            })
+        })
+        .case(actions.logout.failed, (state, payload) => {
+            console.log('failed')
+            return immutable(state, {
+                status: { $set: 'running' },
                 isAuthenticated: { $set: false },
             })
-        }),
+        })
+    ,
 }

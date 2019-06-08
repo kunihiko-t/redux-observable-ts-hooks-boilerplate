@@ -1,9 +1,18 @@
 import React from 'react'
+import actions from '../actions/user'
+import { useDispatch } from 'react-redux'
 
-export default () => (
-    <div>
+const Login = () => {
+    const dispatch = useDispatch()
+    return (
         <div>
-            a
+            <div>
+                <input type="button" onClick={() => {
+                    dispatch(actions.login.started({ id: '1' }))
+                }} value="test"/>
+            </div>
         </div>
-    </div>
-)
+    )
+}
+
+export default Login

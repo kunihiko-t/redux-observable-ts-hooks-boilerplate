@@ -1,7 +1,6 @@
-import React, { useEffect, useState } from 'react'
-import { connect } from 'react-redux'
-import PropTypes from 'prop-types'
-import { ConnectedRouter } from 'connected-react-router'
+import React, { useEffect } from 'react'
+import { useDispatch, useSelector } from 'react-redux'
+import { ConnectedRouter, LocationChangeAction, RouterState } from 'connected-react-router'
 import RoutePublic from '../modules/RoutePublic'
 import RoutePrivate from '../modules/RoutePrivate'
 import { Route, Switch } from 'react-router'
@@ -9,37 +8,42 @@ import './App.css'
 import Login from '../routes/Login'
 import Home from '../routes/Home'
 import NotFound from '../routes/NotFound'
-import { parse } from 'query-string'
-import { Dispatch } from 'redux'
+import { Reducer } from 'redux'
 import { History } from 'history'
 
-const App = ({ history }: { dispatch: Dispatch, history: History }) => {
-    const query = parse(history.location.search)
-    const [installationID] = useState(query['installation_id'])
+import actions from '../actions/user'
+import { RootProps } from '../@types/common'
+
+const App:  React.FC<RootProps> = ({ history }: { history: History }) => {
+    const router = useSelector((state: { router: Reducer<RouterState, LocationChangeAction> }) => state.router)
+    console.log(router)
+    const dispatch = useDispatch()
+    const user = useSelector((state: any) => state.user)
+    console.log('user',user)
 
     useEffect(() => {
         //Mount
         console.log('mount')
+        dispatch(actions.login.started({ id: '1' }))
         return () => {
             //Unmount
             console.log('Unmount')
         }
     }, [])
 
-    const authenticated = installationID ? true : false
     return (
         <ConnectedRouter history={history}>
             <Switch>
                 <Route exact path="/" component={Login}/>
                 <RoutePublic
-                    component={Login}
-                    isAuthenticated={authenticated}
+                    component={()=> (<Login/>)}
+                    isAuthenticated={true}
                     path="/login"
                     exact
                 />
                 <RoutePrivate
                     component={Home}
-                    isAuthenticated={authenticated}
+                    isAuthenticated={false}
                     path="/home"
                     exact
                 />
@@ -49,17 +53,5 @@ const App = ({ history }: { dispatch: Dispatch, history: History }) => {
     )
 }
 
-App.propTypes = {
-    dispatch: PropTypes.func.isRequired,
-    history: PropTypes.object.isRequired,
-}
 
-App.defaultProps = {}
-
-function mapStateToProps(state) {
-    return {
-        router: state.router,
-    }
-}
-
-export default connect(mapStateToProps)(App)
+export default App

@@ -1,19 +1,18 @@
 import React, { useEffect } from 'react'
-import PropTypes from 'prop-types'
-import { connect } from 'react-redux'
-import { parse } from 'query-string'
 import { push } from 'connected-react-router'
-import { Dispatch } from 'redux'
 import { History } from 'history'
+import { useDispatch } from 'react-redux'
+import actions from '../actions/user'
 
-const Home = ({ dispatch, history }: { dispatch: Dispatch, history: History }) => {
-    const query = parse(history.location.search)
-    const installationID = query['installation_id']
+const Home = ({ history }: { history: History }) => {
+    const dispatch = useDispatch()
+
     useEffect(() => {
         //Mount
         console.log('mount')
         return () => {
             //Unmount
+            dispatch(actions.login.started({ id: '1' }))
             console.log('unmount')
         }
     }, [])
@@ -31,16 +30,4 @@ const Home = ({ dispatch, history }: { dispatch: Dispatch, history: History }) =
     )
 }
 
-Home.propTypes = {
-    dispatch: PropTypes.func.isRequired,
-    github: PropTypes.object.isRequired,
-    history: PropTypes.object.isRequired,
-}
-
-Home.defaultProps = {}
-
-function mapStateToProps(state) {
-    return { github: state.github }
-}
-
-export default connect(mapStateToProps)(Home)
+export default Home

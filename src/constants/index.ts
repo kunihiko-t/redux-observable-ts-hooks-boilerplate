@@ -1,4 +1,4 @@
-import keyMirror from 'keyMirror'
+const keyMirror = require('fbjs/lib/keyMirror')
 
 export const ActionTypes = keyMirror({
     USER_LOGIN: undefined,

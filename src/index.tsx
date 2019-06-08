@@ -1,22 +1,20 @@
 import React from 'react'
 import ReactDOM from 'react-dom'
 import './index.css'
-import App from './App'
+import App from './containers/App'
 import * as serviceWorker from './serviceWorker'
 import { Provider } from 'react-redux'
 
 import './vendor/rxjs'
 import { store, history } from './store'
-import { History } from 'history'
+import { RootProps } from './@types/common'
+
 
 
 const root = document.getElementById('root')
 
-interface OuterProps {
-    history: History;
-}
 
-const render = (Component: React.FC<OuterProps>) => {
+const render = (Component: React.FC<RootProps>) => {
     ReactDOM.render(
         <Provider store={store}>
             <Component history={history}/>
