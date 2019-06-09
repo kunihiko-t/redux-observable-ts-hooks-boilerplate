@@ -70,6 +70,8 @@
     "rxjs": "^6.5.2",
     "rxjs-compat": "^6.5.2",
     "sass-loader": "7.1.0",
+    "semantic-ui-css": "^2.4.1",
+    "semantic-ui-react": "^0.87.1",
     "semver": "6.0.0",
     "style-loader": "0.23.1",
     "styled-components": "^4.2.1",

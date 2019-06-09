@@ -9,9 +9,4 @@ export const ActionTypes = keyMirror({
     HIDE_ALERT: undefined,
 })
 
-export const XHR = keyMirror({
-    SUCCESS: undefined,
-    FAIL: undefined,
-})
-
 export const ApiBaseUrl = require('./url.dev').ApiBaseUrl

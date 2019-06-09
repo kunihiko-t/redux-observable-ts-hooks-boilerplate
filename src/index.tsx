@@ -6,9 +6,9 @@ import * as serviceWorker from './serviceWorker'
 import { Provider } from 'react-redux'
 
 import './vendor/rxjs'
-import { store, history } from './store'
+import { history, store } from './store'
 import { RootProps } from './@types/common'
-
+import 'semantic-ui-css/semantic.min.css'
 
 
 const root = document.getElementById('root')

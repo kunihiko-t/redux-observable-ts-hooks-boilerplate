@@ -1,31 +1,34 @@
 import React, { useEffect } from 'react'
-import { push } from 'connected-react-router'
-import { History } from 'history'
-import { useDispatch } from 'react-redux'
-import actions from '../actions/user'
+import { useDispatch, useSelector } from 'react-redux'
+import { Button } from 'semantic-ui-react'
+import actions from '../actions/github'
+import RepositoryList from '../components/RepositoryList'
 
-const Home = ({ history }: { history: History }) => {
+const Home = () => {
     const dispatch = useDispatch()
-
+    const github = useSelector((state: any) => state.github)
+    const isLoading = github.status === 'running' ? true : false
+    const repositories = github.repositories
     useEffect(() => {
         //Mount
         console.log('mount')
         return () => {
-            //Unmount
-            dispatch(actions.login.started({ id: '1' }))
             console.log('unmount')
         }
     }, [])
     return (
         <div>
             <h1>Home</h1>
-            <div
+            <Button
                 onClick={() => {
-                    dispatch(push('/'))
+                    dispatch(actions.fetchRepositories.started({}))
                 }}
+                disabled={isLoading}
             >
-                routing test
-            </div>
+                Fetch repositories
+            </Button>
+            <RepositoryList items={repositories.items || []} total_count={repositories.total_count}
+                            isLoading={isLoading}/>
         </div>
     )
 }
