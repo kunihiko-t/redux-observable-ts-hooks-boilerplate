@@ -11,3 +11,7 @@
 - typescript-fsa-reducers 1.2.1
 - typescript-fsa 3.0.0-beta-2
 - typescript-fsa-redux-observable 0.18.0
+
+普段使っているboilerplateをts化してrxjs5->6に上げたのでついでに公開した。
+
+react-redux7.1.0から使えるhooksの関数群の型定義がなかったので、とりあえず使うために仮のものを[追加している](/src/@types/react-redux.ts)
