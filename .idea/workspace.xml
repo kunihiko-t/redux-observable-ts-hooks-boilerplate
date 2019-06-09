@@ -1,24 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="3a729d2e-a4b8-469f-b06d-058a3de34d74" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/@types/common.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/@types/common.d.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/constants/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/constants/index.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/containers/App.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/containers/App.test.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/containers/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/containers/App.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/epics/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/epics/index.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/epics/user.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/epics/user.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/reducers/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/reducers/index.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/reducers/user.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/reducers/user.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/routes/Home.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/Home.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/routes/Login.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/Login.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
-    </list>
+    <list default="true" id="3a729d2e-a4b8-469f-b06d-058a3de34d74" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -46,46 +29,11 @@
         <entry file="file://$PROJECT_DIR$/src/epics/github.ts">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="406">
-              <caret line="14" column="131" lean-forward="true" selection-start-line="14" selection-start-column="22" selection-end-line="14" selection-end-column="131" />
+              <caret line="14" column="131" selection-start-line="14" selection-start-column="22" selection-end-line="14" selection-end-column="131" />
               <folding>
                 <element signature="e#0#33#0" expanded="true" />
                 <element signature="e#149#191#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/routes/NotFound.tsx">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/routes/Top.tsx">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="12" selection-start-column="12" selection-end-column="12" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/containers/App.tsx">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="248">
-              <caret line="14" column="25" lean-forward="true" selection-start-line="14" selection-start-column="11" selection-end-line="14" selection-end-column="30" />
-              <folding>
-                <element signature="e#0#40#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/@types/common.d.ts">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="725">
-              <caret line="25" column="1" lean-forward="true" selection-start-line="25" selection-start-column="1" selection-end-line="25" selection-end-column="1" />
             </state>
           </provider>
         </entry>
@@ -111,11 +59,30 @@
           </provider>
         </entry>
       </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/.eslint.json">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/.prettierrc">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
       <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/package.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="915">
+              <caret line="163" column="3" lean-forward="true" selection-start-line="163" selection-start-column="3" selection-end-line="163" selection-end-column="3" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/routes/Home.tsx">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="725">
-              <caret line="25" column="35" selection-start-line="25" selection-start-column="35" selection-end-line="25" selection-end-column="35" />
+            <state relative-caret-position="1015">
+              <caret line="35" column="19" selection-start-line="35" selection-start-column="19" selection-end-line="35" selection-end-column="19" />
               <folding>
                 <element signature="e#0#40#0" expanded="true" />
               </folding>
@@ -177,7 +144,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/package.json" />
         <option value="$PROJECT_DIR$/.prettierrc" />
         <option value="$PROJECT_DIR$/src/routes/NotFound.tsx" />
         <option value="$PROJECT_DIR$/src/constants/url.dev.ts" />
@@ -212,6 +178,7 @@
         <option value="$PROJECT_DIR$/src/components/RepositoryList.tsx" />
         <option value="$PROJECT_DIR$/src/routes/Login.tsx" />
         <option value="$PROJECT_DIR$/src/routes/Home.tsx" />
+        <option value="$PROJECT_DIR$/package.json" />
       </list>
     </option>
   </component>
@@ -244,54 +211,6 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="@types" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="redux-observable-ts-hooks-boilerplate" type="b2602c69:ProjectViewProjectNode" />
-              <item name="redux-observable-ts-hooks-boilerplate" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="actions" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="redux-observable-ts-hooks-boilerplate" type="b2602c69:ProjectViewProjectNode" />
-              <item name="redux-observable-ts-hooks-boilerplate" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="components" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="redux-observable-ts-hooks-boilerplate" type="b2602c69:ProjectViewProjectNode" />
-              <item name="redux-observable-ts-hooks-boilerplate" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="constants" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="redux-observable-ts-hooks-boilerplate" type="b2602c69:ProjectViewProjectNode" />
-              <item name="redux-observable-ts-hooks-boilerplate" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="containers" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="redux-observable-ts-hooks-boilerplate" type="b2602c69:ProjectViewProjectNode" />
-              <item name="redux-observable-ts-hooks-boilerplate" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="epics" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="redux-observable-ts-hooks-boilerplate" type="b2602c69:ProjectViewProjectNode" />
-              <item name="redux-observable-ts-hooks-boilerplate" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="modules" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="redux-observable-ts-hooks-boilerplate" type="b2602c69:ProjectViewProjectNode" />
-              <item name="redux-observable-ts-hooks-boilerplate" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="reducers" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="redux-observable-ts-hooks-boilerplate" type="b2602c69:ProjectViewProjectNode" />
-              <item name="redux-observable-ts-hooks-boilerplate" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="routes" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -315,6 +234,7 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/@types" />
       <recent name="$PROJECT_DIR$/src/containers" />
     </key>
   </component>
@@ -347,10 +267,18 @@
       <workItem from="1559803282465" duration="11519000" />
       <workItem from="1560000418210" duration="8039000" />
     </task>
+    <task id="LOCAL-00001" summary="moved react-app-env.d.ts">
+      <created>1560075029231</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1560075029231</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="55559000" />
+    <option name="totallyTimeSpent" value="55676000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="134" y="1978" width="3706" height="2147" extended-state="6" />
@@ -383,7 +311,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="[WIP]rxjs 5 -&gt; 6, use hooks" />
-    <option name="LAST_COMMIT_MESSAGE" value="[WIP]rxjs 5 -&gt; 6, use hooks" />
+    <MESSAGE value="moved react-app-env.d.ts" />
+    <option name="LAST_COMMIT_MESSAGE" value="moved react-app-env.d.ts" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/node_modules/typescript-fsa-redux-observable/lib/index.d.ts" />
@@ -520,9 +449,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/containers/App.css">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/containers/App.css" />
     <entry file="file://$PROJECT_DIR$/node_modules/@types/react-router/index.d.ts">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="398">
@@ -544,16 +471,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/Head.tsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="899">
-          <caret line="31" column="20" selection-start-line="31" selection-start-column="20" selection-end-line="31" selection-end-column="20" />
-          <folding>
-            <element signature="e#0#25#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/Head.tsx" />
     <entry file="file://$PROJECT_DIR$/src/constants/index.ts">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="348">
@@ -561,19 +479,8 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/containers/App.test.tsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="261">
-          <caret line="9" lean-forward="true" selection-end-line="9" />
-          <folding>
-            <element signature="e#0#25#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/.gitkeep">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/containers/App.test.tsx" />
+    <entry file="file://$PROJECT_DIR$/src/components/.gitkeep" />
     <entry file="file://$PROJECT_DIR$/src/modules/RoutePublic.tsx">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="116">
@@ -610,8 +517,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/package.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="446">
-          <caret line="64" column="21" selection-start-line="64" selection-start-column="5" selection-end-line="64" selection-end-column="21" />
+        <state relative-caret-position="915">
+          <caret line="163" column="3" lean-forward="true" selection-start-line="163" selection-start-column="3" selection-end-line="163" selection-end-column="3" />
         </state>
       </provider>
     </entry>
@@ -695,7 +602,7 @@
     <entry file="file://$PROJECT_DIR$/src/epics/github.ts">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="406">
-          <caret line="14" column="131" lean-forward="true" selection-start-line="14" selection-start-column="22" selection-end-line="14" selection-end-column="131" />
+          <caret line="14" column="131" selection-start-line="14" selection-start-column="22" selection-end-line="14" selection-end-column="131" />
           <folding>
             <element signature="e#0#33#0" expanded="true" />
             <element signature="e#149#191#0" expanded="true" />
@@ -742,8 +649,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/routes/Home.tsx">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="725">
-          <caret line="25" column="35" selection-start-line="25" selection-start-column="35" selection-end-line="25" selection-end-column="35" />
+        <state relative-caret-position="1015">
+          <caret line="35" column="19" selection-start-line="35" selection-start-column="19" selection-end-line="35" selection-end-column="19" />
           <folding>
             <element signature="e#0#40#0" expanded="true" />
           </folding>
