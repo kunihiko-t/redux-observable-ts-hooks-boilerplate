@@ -1,9 +1,10 @@
 import React from 'react'
+import Wrapper from '../components/Wrapper'
 
 const NotFound = () => (
-    <div key="404">
+    <Wrapper key="404">
         <h1>404</h1>
-    </div>
+    </Wrapper>
 )
 
 export default NotFound

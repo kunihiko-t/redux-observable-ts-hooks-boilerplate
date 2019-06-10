@@ -3,7 +3,8 @@ import { useDispatch, useSelector } from 'react-redux'
 import { Button } from 'semantic-ui-react'
 import actions from '../actions/github'
 import RepositoryList from '../components/RepositoryList'
-
+import Wrapper from '../components/Wrapper'
+import GlobalNav from '../components/GlobalNav'
 const Home = () => {
     const dispatch = useDispatch()
     const github = useSelector((state: any) => state.github)
@@ -17,7 +18,8 @@ const Home = () => {
         }
     }, [])
     return (
-        <div>
+        <Wrapper>
+            <GlobalNav activeItem="home"/>
             <h1>Home</h1>
             <Button
                 onClick={() => {
@@ -29,7 +31,7 @@ const Home = () => {
             </Button>
             <RepositoryList items={repositories.items || []} total_count={repositories.total_count}
                             isLoading={isLoading}/>
-        </div>
+        </Wrapper>
     )
 }
 

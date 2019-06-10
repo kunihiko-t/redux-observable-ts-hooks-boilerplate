@@ -11,6 +11,7 @@ import NotFound from '../routes/NotFound'
 import { History } from 'history'
 import { RootProps } from '../@types/common'
 import { Container } from 'semantic-ui-react'
+import RenderProps from '../routes/RenderProps'
 
 const App: React.FC<RootProps> = ({ history }: { history: History }) => {
     const user = useSelector((state: any) => state.user)
@@ -39,6 +40,12 @@ const App: React.FC<RootProps> = ({ history }: { history: History }) => {
                         component={Home}
                         isAuthenticated={user.isAuthenticated}
                         path="/home"
+                        exact
+                    />
+                    <RoutePrivate
+                        component={RenderProps}
+                        isAuthenticated={user.isAuthenticated}
+                        path="/renderProps"
                         exact
                     />
                     <Route component={NotFound}/>
