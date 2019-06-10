@@ -1,12 +1,13 @@
 import { ActionTypes } from '../constants/index'
 
-import actionCreatorFactory from 'typescript-fsa';
+import actionCreatorFactory from 'typescript-fsa'
 
-const ac = actionCreatorFactory();
+const ac = actionCreatorFactory()
 
 interface LoginParam {
     id: string
 }
+
 interface LoginResult {
     data: any
 }
@@ -17,5 +18,5 @@ interface LoginError {
 
 export default {
     login: ac.async<LoginParam, LoginResult, LoginError>(ActionTypes.USER_LOGIN),
-    logout: ac.async<undefined, undefined>(ActionTypes.USER_LOGOUT)
-};
+    logout: ac.async<undefined, undefined>(ActionTypes.USER_LOGOUT),
+}

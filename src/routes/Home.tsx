@@ -5,6 +5,7 @@ import actions from '../actions/github'
 import RepositoryList from '../components/RepositoryList'
 import Wrapper from '../components/Wrapper'
 import GlobalNav from '../components/GlobalNav'
+
 const Home = () => {
     const dispatch = useDispatch()
     const github = useSelector((state: any) => state.github)

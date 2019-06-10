@@ -1,4 +1,4 @@
-# Typescript + React + Redux + Redux-observable + Hooks boilerplate
+# typescript + react + redux + redux-observable + hooks boilerplate
 
 - react 16.8.6
 - typescript 3.5.1

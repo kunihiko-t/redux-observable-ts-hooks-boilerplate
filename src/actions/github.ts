@@ -1,11 +1,12 @@
 import { ActionTypes } from '../constants/index'
 
-import actionCreatorFactory from 'typescript-fsa';
+import actionCreatorFactory from 'typescript-fsa'
 
-const ac = actionCreatorFactory();
+const ac = actionCreatorFactory()
 
 interface FetchRepositoryParam {
 }
+
 interface FetchRepositoryResult {
     repositories: any
 }
@@ -16,4 +17,4 @@ interface FetchRepositoryError {
 
 export default {
     fetchRepositories: ac.async<FetchRepositoryParam, FetchRepositoryResult, FetchRepositoryError>(ActionTypes.FETCH_REPOSITORIES),
-};
+}

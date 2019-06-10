@@ -9,7 +9,7 @@ const RenderProps = () => {
         <Wrapper>
             <GlobalNav activeItem="renderProps"/>
             <Header as="h1">RenderProps</Header>
-            <MouseTracker />
+            <MouseTracker/>
         </Wrapper>
     )
 }
