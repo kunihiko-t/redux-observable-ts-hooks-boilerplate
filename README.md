@@ -3,7 +3,7 @@
 - react 16.8.6
 - typescript 3.5.1
 - redux 4.0.1
-- react-redux 7.1.0-rc.1
+- react-redux 7.1.0
 - rxjs 6.5.2
 - redux-observable 1.1.0
 - react-router-dom 5.0.0
