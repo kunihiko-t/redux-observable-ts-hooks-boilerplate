@@ -1,9 +1,9 @@
 import React from 'react'
-import actions from '../actions/user'
+import actions from 'actions/user'
 import { useDispatch, useSelector } from 'react-redux'
 import { Button, Header } from 'semantic-ui-react'
-import CenterLoader from '../components/CenterLoader'
-import Wrapper from '../components/Wrapper'
+import CenterLoader from 'components/CenterLoader'
+import Wrapper from 'components/Wrapper'
 
 const Login = () => {
 

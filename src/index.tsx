@@ -6,7 +6,7 @@ import { Provider } from 'react-redux'
 
 import './vendor/rxjs'
 import { history, store } from './store'
-import { RootProps } from './@types/common'
+import { RootProps } from 'types/common'
 import 'semantic-ui-css/semantic.min.css'
 
 

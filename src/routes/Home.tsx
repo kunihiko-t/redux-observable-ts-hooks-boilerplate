@@ -1,10 +1,10 @@
 import React, { useEffect } from 'react'
 import { useDispatch, useSelector } from 'react-redux'
 import { Button } from 'semantic-ui-react'
-import actions from '../actions/github'
-import RepositoryList from '../components/RepositoryList'
-import Wrapper from '../components/Wrapper'
-import GlobalNav from '../components/GlobalNav'
+import actions from 'actions/github'
+import RepositoryList from 'components/RepositoryList'
+import Wrapper from 'components/Wrapper'
+import GlobalNav from 'components/GlobalNav'
 
 const Home = () => {
     const dispatch = useDispatch()

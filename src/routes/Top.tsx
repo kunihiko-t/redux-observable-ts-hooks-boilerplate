@@ -1,7 +1,7 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
 import { Button, Header } from 'semantic-ui-react'
-import Wrapper from '../components/Wrapper'
+import Wrapper from 'components/Wrapper'
 
 const Home = () => {
     return (

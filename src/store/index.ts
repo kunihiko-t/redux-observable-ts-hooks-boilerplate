@@ -1,8 +1,8 @@
 import { applyMiddleware, combineReducers, compose, createStore, Middleware } from 'redux'
 import { createEpicMiddleware } from 'redux-observable'
 
-import rootEpic from '../epics'
-import rootReducer from '../reducers'
+import rootEpic from 'epics'
+import rootReducer from 'reducers'
 
 import { createBrowserHistory } from 'history'
 import { connectRouter, routerMiddleware } from 'connected-react-router'
