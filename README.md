@@ -24,3 +24,5 @@ $ yarn start
 ```
 
 このrepositoryに関する記事： [手持ちのredux-observableのboilerplateをTypeScript+Hooks化した](https://blog.valletta.io/blog/2019-06-11-%E6%89%8B%E6%8C%81%E3%81%A1%E3%81%AEredux-observable%E3%81%AEboilerplate%E3%82%92typescript-hooks%E5%8C%96%E3%81%97%E3%81%9F/)
+
+[Migrate redux-observable boilerplate from ES6 to TypeScript & Hooks](https://blog.valletta.io/blog/2019-06-13-migrating-es6-redux-observable-boilerplate-to-typescript/)
