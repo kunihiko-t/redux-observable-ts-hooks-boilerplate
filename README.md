@@ -14,7 +14,6 @@
 
 普段使っているboilerplateをts化してrxjs5->6に上げたのでついでに公開した。
 
-react-redux7.1.0から使えるhooksの関数群の型定義がなかったので、とりあえず使うために仮のものを[追加している](/src/@types/react-redux.d.ts)
 
 ```$xslt
 $ git clone https://github.com/kunihiko-t/redux-observable-ts-hooks-boilerplate.git
