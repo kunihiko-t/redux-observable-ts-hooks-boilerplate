@@ -9,7 +9,7 @@ import GlobalNav from 'components/GlobalNav'
 const Home = () => {
     const dispatch = useDispatch()
     const github = useSelector((state: any) => state.github)
-    const isLoading = github.status === 'running' ? true : false
+    const isLoading = github.status === 'running'
     const repositories = github.repositories
     useEffect(() => {
         //Mount
@@ -21,7 +21,6 @@ const Home = () => {
     return (
         <Wrapper>
             <GlobalNav activeItem="home"/>
-            <h1>Home</h1>
             <Button
                 onClick={() => {
                     dispatch(actions.fetchRepositories.started({}))
